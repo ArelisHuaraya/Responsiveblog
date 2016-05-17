@@ -32,17 +32,23 @@ body {
   background: url("../image/header-image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 450px;
-  margin-bottom: 20px; }
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 130px 0; }
 
 .came {
   background-color: #140718;
-  width: 300px;
-  margin: 0 auto; }
+  width: 580px;
+  margin: 0 auto;
+  padding: 15px;
+  padding-bottom: 50px; }
+
+.came h1 {
+  font-size: 80px; }
 
 .came a {
   color: #fff;
-  margin: 5px; }
+  margin: 10px; }
 
 .texto {
   background-color: #140718;
@@ -56,22 +62,49 @@ body {
   color: #fff; }
 
 .search {
-  border-radius: 2px #1C1820; }
+  border: 25px solid #1C1820; }
+
+.search input {
+  background-color: #2D2735;
+  border: none; }
 
 .about {
   background-color: #1C1820;
-  padding: 8px; }
+  padding: 12px;
+  margin-bottom: -1px; }
 
 .amanda {
   background-color: #1C1820;
   padding: 10px; }
 
+.amanda p {
+  font-size: 20px; }
+
 .follow i {
-  margin: 5px;
-  border-radius: 100%; }
+  margin: 5px; }
+
+.follow .fa {
+  border-radius: 120px;
+  background-color: #2D2735;
+  padding: 7px;
+  color: #fff; }
 
 .footer {
   background-color: #1C1820;
-  padding: 20px; }
+  padding: 20px;
+  margin: 0 -15px; }
+
+.footer p {
+  margin-top: 7px; }
+
+@media (max-width: 750px) {
+  .header {
+    margin-right: 0; }
+
+  .came {
+    margin-right: 0; }
+
+  video .iframe {
+    margin-right: 0; } }
 
 /*# sourceMappingURL=main.css.map */

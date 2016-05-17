@@ -41,17 +41,23 @@ body{
 	background: url("../image/header-image.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 450px;
+	margin-top: 20px;
 	margin-bottom: 20px;
+	padding: 130px 0;
 }
 .came{
 	background-color: $color_uno;
-	width:300px;
-	margin:0 auto;
+	width: 580px;
+	margin: 0 auto;
+	padding: 15px;
+	padding-bottom: 50px;
+}
+.came h1{
+	font-size: 80px;
 }
 .came a{
 	color:$color_letra;
-	margin: 5px;
+	margin: 10px;
 }
 .texto{
 	background-color: $color_uno;
@@ -65,22 +71,51 @@ body{
 	color: $color_letra;
 }
 .search{
-	border-radius: 2px $color_dos;
+	border: 25px solid $color_dos;
+}
+.search input{
+	background-color: $color_fondo;
+	border: none;
 }
 .about{
 	background-color: $color_dos;
-	padding: 8px;
+	padding: 12px;
+	margin-bottom: -1px;
 }
 .amanda{
 	background-color: $color_dos;
 	padding: 10px;
 }
+.amanda p{
+	font-size: 20px;
+}
 .follow i{
 	margin: 5px;
-	border-radius: 100%;
+}
+.follow .fa{
+	border-radius: 120px;
+	background-color: $color_fondo;
+	padding: 7px;
+	color: $color_letra;
 }
 .footer{
 	background-color: $color_dos;
 	padding: 20px;
+	margin: 0 -15px;
+}
+.footer p{
+	margin-top: 7px;
+}
+
+@media(max-width: 750px){
+	.header{
+		margin-right: 0;
+	}
+	.came{
+		margin-right: 0;
+	}
+	video .iframe{
+		margin-right: 0;
+	}
 
 }
