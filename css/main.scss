@@ -1,0 +1,86 @@
+$color_fondo: #2D2735;
+$color_uno: #140718;
+$color_dos: #1C1820;
+$color_letra: #fff;
+$color_tit: #F5BD60;
+$fuente_tit: "Courgette", cursive;
+$fuente_par: "Open Sans", sans-serif;
+
+h1, h3{
+	color: $color_tit;
+	font-family: $fuente_tit;
+}
+p, h4{
+	font-family: $fuente_par;
+	color: $color_letra;
+}
+body{
+	background-color: $color_fondo;
+}
+.thumbnail{
+	background-color: $color_fondo;
+	border: none;
+}
+.header{
+	background-color: $color_uno;
+}
+.header img{
+	width: 250px;
+}
+.header ul{
+	margin: 25px 50px;
+	
+}
+.header ul li{
+	text-decoration: none;
+}
+.header ul a{
+	color:$color_letra;
+}
+.presentacion{
+	background: url("../image/header-image.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 450px;
+	margin-bottom: 20px;
+}
+.came{
+	background-color: $color_uno;
+	width:300px;
+	margin:0 auto;
+}
+.came a{
+	color:$color_letra;
+	margin: 5px;
+}
+.texto{
+	background-color: $color_uno;
+	padding: 5px;
+}
+.flatness{
+	background-color: $color_dos;
+	padding: 1px;
+}
+.lista h6{
+	color: $color_letra;
+}
+.search{
+	border-radius: 2px $color_dos;
+}
+.about{
+	background-color: $color_dos;
+	padding: 8px;
+}
+.amanda{
+	background-color: $color_dos;
+	padding: 10px;
+}
+.follow i{
+	margin: 5px;
+	border-radius: 100%;
+}
+.footer{
+	background-color: $color_dos;
+	padding: 20px;
+
+}
