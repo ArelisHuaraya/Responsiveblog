@@ -98,13 +98,14 @@ body {
   margin-top: 7px; }
 
 @media (max-width: 750px) {
-  .header {
-    margin-right: 0; }
+  .presentacion {
+    padding: 15px; }
 
   .came {
-    margin-right: 0; }
+    width: 450px;
+    padding: 10px; }
 
-  video .iframe {
-    margin-right: 0; } }
+  iframe {
+    width: 450px; } }
 
 /*# sourceMappingURL=main.css.map */
